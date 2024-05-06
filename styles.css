@@ -1,0 +1,136 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url('https://th.bing.com/th/id/OIP.4JZNM1XIoRgHEp3exCpXjQHaNK?rs=1&pid=ImgDetMain')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(183, 32, 32, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    font-size: 2em;
+    color: #b21919;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #671111;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #890b0b;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #1b1a1a;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #030303;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #0b0b0b;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.forget label input{
+    margin-right: 3px;
+
+}
+.forget label a{
+    color: #101010;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+    background-color: aqua;
+}
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #a94242;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  transition: background 0.3s; /* Adding transition for smooth effect */
+}
+
+button:hover {
+  background: #4b2778; /* Changing background color on hover */
+}
+
+
+.register{
+    font-size: .9em;
+    color: #490c0c;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #981515;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+    background-color: aqua;
+}
+button p a{
+  text-decoration: none;
+  color: #981515;
+  font-weight: 600;
+}
+button p a:hover{
+  text-decoration: underline;
+  background-color: aqua;
+}
+
